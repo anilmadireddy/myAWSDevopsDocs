@@ -33,7 +33,7 @@ cp /opt/apache-tomcat-9.0.83/webapps/manager/META-INF/context.xml /opt/apache-to
 
 echo "-----------------------Applying changes to context.xml and omcat-users1.xml-------------------------------------------------------------"
 sleep 5
-cp conf/tomcat-users1.xml /opt/apache-tomcat-9.0.83/conf/tomcat-users.xml
+cp conf/tomcat-users.xml /opt/apache-tomcat-9.0.83/conf/tomcat-users.xml
 cp docs/context.xml /opt/apache-tomcat-9.0.83/webapps/docs/META-INF/context.xml
 cp host-manager/context.xml /opt/apache-tomcat-9.0.83/webapps/host-manager/META-INF/context.xml
 cp examples/context.xml /opt/apache-tomcat-9.0.83/webapps/examples/META-INF/context.xml
