@@ -69,5 +69,6 @@ sleep 10
 echo "-----------------------Checking Maven Version---mvn --version------------------------------------------"
 sleep 5
 mvn --version
+sudo apt install sysvbanner -y
 banner end
 
