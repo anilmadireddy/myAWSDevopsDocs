@@ -51,6 +51,7 @@ wget -P /opt https://dlcdn.apache.org/maven/maven-3/3.9.5/binaries/apache-maven-
 echo "-----------------------unzipping the maven files to /opt-------------------------------------------------------------"
 echo "-----------------------unzip apache-maven-3.9.5-bin.zip-----------------------------------------------------------"
 sleep 5
+sudo apt install unzip -y
 unzip /opt/apache-maven-3.9.5-bin.zip -d /opt
 
 echo "-----------------------adding environmental variables to /etc/profile---------------------------------------------"
