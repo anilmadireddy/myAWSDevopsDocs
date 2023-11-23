@@ -87,11 +87,12 @@ git clone https://github.com/anilmadireddy/myWebapp.git
 
 echo "-----------------------Building Package Through Maven------------------------------------------"
 source /etc/profile
-cp
+cp myWebapp/* .
 sleep 5
+mvn clean package
 
 echo "-----------------------Deploying Webapp------------------------------------------"
-cp /home/ubuntu/myAWSDevopsDocs/TomcatInstallation/myWebapp/webapp/target/webapp.war /opt/apache-tomcat-9.0.83/webapps/
+cp /home/ubuntu/myAWSDevopsDocs/TomcatInstallation/webapp/target/webapp.war /opt/apache-tomcat-9.0.83/webapps/
 
 sleep 5
 banner end of webapp
