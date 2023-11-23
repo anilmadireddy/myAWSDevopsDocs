@@ -87,7 +87,7 @@ git clone https://github.com/anilmadireddy/myWebapp.git
 
 echo "-----------------------Building Package Through Maven------------------------------------------"
 source /etc/profile
-cp myWebapp/* .
+cp -r myWebapp/* .
 sleep 5
 mvn clean package
 
