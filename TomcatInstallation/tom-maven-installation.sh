@@ -47,7 +47,7 @@ echo "-----------------------Now you can hit tomcat with 'http://<PUBLIC_IP>:808
 sleep 5
 banner end of Tomcat
 banner installation
-sleep 5
+sleep 25
 
 echo "-----------------------downloading the apache-maven-3.9.5-bin.zip------------------------------------------"
 sleep 5
